@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 업로드된 이미지
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# AI 모델 파일 (용량 큼)
+backend/models/*.pt
+
+# Node.js
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
